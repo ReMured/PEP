@@ -240,7 +240,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "1"
+      "sch_revision": ""
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -488,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "PEP_Schaltplan_Layout_V1.0.kicad_pro",
+    "filename": "Test_Footprint_Projekt.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -522,14 +522,10 @@
   },
   "pcbnew": {
     "last_paths": {
-      "gencad": "",
       "idf": "",
       "netlist": "",
       "plot": "",
-      "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
-      "svg": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -640,43 +636,16 @@
     "meta": {
       "version": 1
     },
-    "page_layout_descr_file": "empty.kicad_wks",
+    "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
-    "top_level_sheets": [
-      {
-        "filename": "PEP_Schaltplan_Layout_V1.0.kicad_sch",
-        "name": "",
-        "uuid": "c92bfc19-22ce-4924-9f32-1487b4215208"
-      }
-    ],
-    "used_designators": "",
+    "top_level_sheets": [],
+    "used_designators": "RV1-2",
     "variants": []
   },
-  "sheets": [
-    [
-      "4458804a-05ee-4dff-9511-80a08a204c04",
-      "Spannungsversorgung"
-    ],
-    [
-      "1d4b50c0-6039-465e-bf32-5410987afccc",
-      "Wien-Robinson-Generator"
-    ],
-    [
-      "266255db-b3d9-42a5-82a9-1ba71b36126a",
-      "Signalverarebeitung"
-    ],
-    [
-      "b4c1cb17-9734-448d-a888-ed0e1ee0ff3d",
-      "Amplitudeneinstellung_Offset"
-    ],
-    [
-      "c92bfc19-22ce-4924-9f32-1487b4215208",
-      ""
-    ]
-  ],
+  "sheets": [],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {
