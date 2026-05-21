@@ -667,7 +667,7 @@
         "uuid": "c92bfc19-22ce-4924-9f32-1487b4215208"
       }
     ],
-    "used_designators": "C25,C29-42,SW1-6,#GND27,R29,R32,R44,R50-54,D17,RV3",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
