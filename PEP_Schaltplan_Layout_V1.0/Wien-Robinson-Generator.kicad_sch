@@ -4627,22 +4627,22 @@
 			)
 		)
 		(pin "6"
-			(uuid "09177fc1-14f5-45bf-b4b9-5f197ab9fa54")
+			(uuid "09177fc1-14f5-45bf-b4b9-5f197ab9fa55")
 		)
 		(pin "2"
-			(uuid "db039796-6805-4f45-8cb4-a453e72fce06")
+			(uuid "db039796-6805-4f45-8cb4-a453e72fce07")
 		)
 		(pin "4"
-			(uuid "ca8775df-32ce-4b09-835f-1f83c50e444e")
+			(uuid "ca8775df-32ce-4b09-835f-1f83c50e444f")
 		)
 		(pin "5"
-			(uuid "cf6bd40f-075d-4a80-8766-cd22ee4955e5")
+			(uuid "cf6bd40f-075d-4a80-8766-cd22ee4955e6")
 		)
 		(pin "1"
-			(uuid "b5ffb77f-f3de-4bb0-aaa8-69e4373f4135")
+			(uuid "b5ffb77f-f3de-4bb0-aaa8-69e4373f4136")
 		)
 		(pin "3"
-			(uuid "374d8155-3763-4bf1-9895-805d33170a28")
+			(uuid "374d8155-3763-4bf1-9895-805d33170a29")
 		)
 		(instances
 			(project "PEP_Schaltplan_Layout_V1.0"
