@@ -2107,6 +2107,16 @@
 	)
 	(wire
 		(pts
+			(xy 15.24 118.11) (xy 16.51 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a4d3169-03ab-4e00-bb85-1c4616965818")
+	)
+	(wire
+		(pts
 			(xy 231.14 63.5) (xy 231.14 66.04)
 		)
 		(stroke
@@ -2207,6 +2217,16 @@
 	)
 	(wire
 		(pts
+			(xy 15.24 123.19) (xy 15.24 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2549f766-40ff-4983-91c6-6a5e0143c155")
+	)
+	(wire
+		(pts
 			(xy 135.89 86.36) (xy 142.24 86.36)
 		)
 		(stroke
@@ -2214,6 +2234,16 @@
 			(type default)
 		)
 		(uuid "25a18df4-0456-418d-8637-01961fe3e5ef")
+	)
+	(wire
+		(pts
+			(xy 22.86 118.11) (xy 25.4 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26bd6603-cbbc-4683-9cb1-5f557e09d743")
 	)
 	(wire
 		(pts
@@ -2624,16 +2654,6 @@
 			(type default)
 		)
 		(uuid "561d6e80-e815-4bbc-b9d0-bfaa1029623c")
-	)
-	(wire
-		(pts
-			(xy 25.4 118.11) (xy 25.4 124.46)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "56b057e7-0728-4236-8ac7-b229eedfd4aa")
 	)
 	(wire
 		(pts
@@ -4073,7 +4093,7 @@
 	)
 	(global_label "Sinus_Wien"
 		(shape bidirectional)
-		(at 25.4 124.46 270)
+		(at 15.24 123.19 270)
 		(effects
 			(font
 				(size 1.0668 1.0668)
@@ -4082,7 +4102,7 @@
 		)
 		(uuid "d3a4f907-f877-42c9-92ad-d3ac0c3234fb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.4 124.46 0)
+			(at 15.24 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9931,6 +9951,109 @@
 			(project "PEP_Schaltplan_Layout_V1.0"
 				(path "/c92bfc19-22ce-4924-9f32-1487b4215208/266255db-b3d9-42a5-82a9-1ba71b36126a"
 					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ltspice:res")
+		(at 24.13 116.84 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ec617341-229c-40f5-b539-2f5b97da779a")
+		(property "Reference" "R37"
+			(at 19.685 116.84 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.0668 1.0668)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "0R"
+			(at 19.685 119.38 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.0668 1.0668)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 24.13 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 24.13 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 24.13 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Params" "R=${VALUE}"
+			(at 24.13 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8a3406e2-75b9-4f88-8ca6-97f479231451")
+		)
+		(pin "1"
+			(uuid "35155781-f275-484b-9771-efe9c1b1c142")
+		)
+		(instances
+			(project "PEP_Schaltplan_Layout_V1.0"
+				(path "/c92bfc19-22ce-4924-9f32-1487b4215208/266255db-b3d9-42a5-82a9-1ba71b36126a"
+					(reference "R37")
 					(unit 1)
 				)
 			)

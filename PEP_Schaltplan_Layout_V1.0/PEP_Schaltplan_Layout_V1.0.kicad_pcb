@@ -137,7 +137,7 @@
 			)
 		)
 		(property ki_fp_filters "*SOIC*5.3x6.2mm*P1.27mm*")
-		(path "/4458804a-05ee-4dff-9511-80a08a204c04/2fed9fd6-ec28-48e6-a277-520a9bc1c964")
+		(path "/4458804a-05ee-4dff-9511-80a08a204c04/2fed9fd6-ec28-48e6-a277-520a9bc1c965")
 		(sheetname "/Spannungsversorgung/")
 		(sheetfile "Spannungsversorgung.kicad_sch")
 		(units
@@ -1315,6 +1315,177 @@
 			(net "Net-(D8-A)")
 			(pintype "passive")
 			(uuid "41ccb3ec-f935-4884-9583-fc43fec06c33")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Resistor_SMD:R_1206_3216Metric"
+		(layer "F.Cu")
+		(uuid "0807f155-e987-4482-bb08-bc7241c1dbfd")
+		(at 201.518559 92.625226)
+		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(tags "resistor")
+		(property "Reference" "R37"
+			(at 0 -1.83 0)
+			(layer "F.SilkS")
+			(uuid "c4f60b58-dbdf-45a6-a856-6337d56bbda5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 0 1.83 0)
+			(layer "F.Fab")
+			(uuid "5772be5d-b815-4fd8-a220-f886fd411525")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cac3b7ff-c2a0-4091-9c57-64a0edd9baed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "83edea90-baef-4edc-9c6a-4ac47d886d3a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ec9e21b-48a5-4712-b87f-25dd4a3d84c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" "R=0R"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05b0cd5c-3bce-459b-a194-73633637cf86")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/266255db-b3d9-42a5-82a9-1ba71b36126a/ec617341-229c-40f5-b539-2f5b97da779a")
+		(sheetname "/Signalverarebeitung/")
+		(sheetfile "Signalverarebeitung.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.727064 -0.91)
+			(end 0.727064 -0.91)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2788bc21-a936-4939-b50d-e662d12e4924")
+		)
+		(fp_line
+			(start -0.727064 0.91)
+			(end 0.727064 0.91)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "078520a5-1ca1-4b10-8bfd-68ce2eca5325")
+		)
+		(fp_rect
+			(start -2.28 -1.13)
+			(end 2.28 1.13)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "2816dbca-36ca-4652-8fa7-1662b9c775fa")
+		)
+		(fp_rect
+			(start -1.6 -0.8)
+			(end 1.6 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "0fd497ed-4b8f-4cd8-85a7-2c2990fe1c76")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "19d042b0-3251-4717-8a71-100e779f2326")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1.4625 0)
+			(size 1.125 1.75)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.222222)
+			(net "Net-(R21-Pad2)")
+			(pintype "passive")
+			(uuid "16118c31-b83a-452a-b9bf-3dedcf7cfd51")
+		)
+		(pad "2" smd roundrect
+			(at 1.4625 0)
+			(size 1.125 1.75)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.222222)
+			(net "Sinus_Wien")
+			(pintype "passive")
+			(uuid "28844aac-da02-4d36-9be8-d574422e5db3")
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step"
@@ -29177,7 +29348,7 @@
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.222222)
-			(net "Sinus_Wien")
+			(net "Net-(R21-Pad2)")
 			(pintype "passive")
 			(uuid "d68f8689-ad55-4ad5-a419-32805271626b")
 		)
