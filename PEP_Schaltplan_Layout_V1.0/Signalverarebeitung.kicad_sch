@@ -1842,6 +1842,12 @@
 		(uuid "9827f3c3-84a4-4a11-b698-4d6fe414f848")
 	)
 	(junction
+		(at 25.4 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98fdc7d6-9e60-4099-afdb-a932ec374175")
+	)
+	(junction
 		(at 207.01 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3534,6 +3540,16 @@
 			(type default)
 		)
 		(uuid "cfb13e73-9208-4970-950b-e4a8491c3da3")
+	)
+	(wire
+		(pts
+			(xy 25.4 118.11) (xy 25.4 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfc81e61-6d6a-40bd-a54e-a43b942426e7")
 	)
 	(wire
 		(pts
@@ -5780,6 +5796,85 @@
 			(project "PEP_Schaltplan_Layout_V1.0"
 				(path "/c92bfc19-22ce-4924-9f32-1487b4215208/266255db-b3d9-42a5-82a9-1ba71b36126a"
 					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 25.4 129.54 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53a517d7-a1e2-4f68-b94c-c88f9150cbe1")
+		(property "Reference" "J12"
+			(at 26.67 127.6349 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 26.67 130.1749 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
+			(at 25.4 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 25.4 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "546ac879-d88b-45f3-a4a5-dc68c87b1ff6")
+		)
+		(instances
+			(project "PEP_Schaltplan_Layout_V1.0"
+				(path "/c92bfc19-22ce-4924-9f32-1487b4215208/266255db-b3d9-42a5-82a9-1ba71b36126a"
+					(reference "J12")
 					(unit 1)
 				)
 			)
