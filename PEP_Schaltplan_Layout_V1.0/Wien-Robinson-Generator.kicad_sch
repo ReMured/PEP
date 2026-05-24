@@ -2695,16 +2695,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 77.47) (xy 71.12 77.47)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "759744a1-d61b-467b-81c4-69ef6effe833")
-	)
-	(wire
-		(pts
 			(xy 229.87 67.31) (xy 229.87 69.85)
 		)
 		(stroke
@@ -2865,7 +2855,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 77.47) (xy 69.85 76.2)
+			(xy 69.85 78.74) (xy 69.85 76.2)
 		)
 		(stroke
 			(width 0.1524)
@@ -3911,7 +3901,7 @@
 		(lib_id "ltspice:GND")
 		(at 92.71 135.89 0)
 		(unit 1)
-		(body_style 0)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3929,7 +3919,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "GND"
 			(at 92.71 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -5202,9 +5192,9 @@
 	)
 	(symbol
 		(lib_id "ltspice:GND")
-		(at 71.12 77.47 0)
+		(at 69.85 78.74 0)
 		(unit 1)
-		(body_style 0)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5212,7 +5202,7 @@
 		(dnp no)
 		(uuid "5b906547-8902-4f14-9085-b5a951533095")
 		(property "Reference" "#GND03"
-			(at 71.12 77.47 0)
+			(at 69.85 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5222,8 +5212,8 @@
 				)
 			)
 		)
-		(property "Value" "0"
-			(at 71.12 77.47 0)
+		(property "Value" "GND"
+			(at 69.85 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5234,7 +5224,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 77.47 0)
+			(at 69.85 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5245,7 +5235,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 77.47 0)
+			(at 69.85 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5256,7 +5246,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 71.12 77.47 0)
+			(at 69.85 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7019,7 +7009,7 @@
 		(lib_id "ltspice:GND")
 		(at 43.18 54.61 0)
 		(unit 1)
-		(body_style 0)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7037,7 +7027,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "GND"
 			(at 43.18 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -8088,7 +8078,7 @@
 		(lib_id "ltspice:GND")
 		(at 43.18 38.1 0)
 		(unit 1)
-		(body_style 0)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8106,7 +8096,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "GND"
 			(at 43.18 38.1 0)
 			(hide yes)
 			(show_name no)

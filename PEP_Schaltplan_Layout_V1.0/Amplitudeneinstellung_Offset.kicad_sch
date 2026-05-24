@@ -3074,7 +3074,7 @@
 		(lib_id "ltspice:GND")
 		(at 45.72 49.53 0)
 		(unit 1)
-		(body_style 0)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3092,7 +3092,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "GND"
 			(at 45.72 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -3371,7 +3371,7 @@
 		(lib_id "ltspice:GND")
 		(at 45.72 66.04 0)
 		(unit 1)
-		(body_style 0)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3389,7 +3389,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "GND"
 			(at 45.72 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -3449,7 +3449,7 @@
 		(lib_id "ltspice:GND")
 		(at 146.05 118.11 0)
 		(unit 1)
-		(body_style 0)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3467,7 +3467,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "GND"
 			(at 146.05 118.11 0)
 			(hide yes)
 			(show_name no)
