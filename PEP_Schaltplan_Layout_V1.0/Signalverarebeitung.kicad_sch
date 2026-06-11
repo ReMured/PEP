@@ -5720,7 +5720,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "4.7n"
+		(property "Value" "2.2n"
 			(at 133.35 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5902,7 +5902,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "100p"
+		(property "Value" "270p"
 			(at 133.35 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6485,7 +6485,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "12p"
 			(at 133.35 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7578,7 +7578,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "470p"
+		(property "Value" "1n"
 			(at 133.35 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8079,7 +8079,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "47p"
+		(property "Value" "120p"
 			(at 133.35 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8280,7 +8280,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "22p"
+		(property "Value" "47p"
 			(at 133.35 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9245,7 +9245,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "22p"
 			(at 133.35 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9764,7 +9764,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "22n"
+		(property "Value" "4.7n"
 			(at 133.35 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
