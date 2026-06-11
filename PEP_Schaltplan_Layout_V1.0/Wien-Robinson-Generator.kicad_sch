@@ -3816,7 +3816,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "6.8n"
+		(property "Value" "33p"
 			(at 87.63 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3997,7 +3997,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "6.8n"
+		(property "Value" "150p"
 			(at 87.63 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4203,7 +4203,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "6.8n"
+		(property "Value" "680n"
 			(at 87.63 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4306,7 +4306,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "6.8n"
+		(property "Value" "4.7n"
 			(at 87.63 127 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4409,7 +4409,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "6.8n"
+		(property "Value" "68p"
 			(at 201.93 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4512,7 +4512,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "6.8n"
+		(property "Value" "33p"
 			(at 201.93 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5011,7 +5011,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "6.8n"
+		(property "Value" "330p"
 			(at 87.63 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5496,7 +5496,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "6.8n"
+		(property "Value" "680p"
 			(at 201.93 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5599,7 +5599,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "6.8n"
+		(property "Value" "4.7n"
 			(at 201.93 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5908,7 +5908,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "6.8n"
+		(property "Value" "1n"
 			(at 201.93 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6114,7 +6114,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "6.8n"
+		(property "Value" "150p"
 			(at 201.93 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6217,7 +6217,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "6.8n"
+		(property "Value" "68p"
 			(at 87.63 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6826,7 +6826,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "6.8n"
+		(property "Value" "330p"
 			(at 201.93 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7409,7 +7409,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "6.8n"
+		(property "Value" "1n"
 			(at 87.63 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7615,7 +7615,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "6.8n"
+		(property "Value" "2.2n"
 			(at 201.93 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)

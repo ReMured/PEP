@@ -3962,7 +3962,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "2k2"
 			(at 83.8199 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4751,7 +4751,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "2k2"
 			(at 81.2801 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)

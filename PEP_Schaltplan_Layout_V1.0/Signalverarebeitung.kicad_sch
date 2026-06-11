@@ -1634,7 +1634,7 @@
 		)
 		(uuid "474fe828-a9b1-4ae4-8267-b9b9bf937576")
 	)
-	(text "Für verschiedene Frequenzen C28 anpassen:\nbis 5 kHz 4.7nF\nbis 25 kHz 1nF\nbis 100 kHz 220pF\nbis 400kHz 47pF\nbis 700kHz 47pF\nbis 1MHz 22pF"
+	(text "Für verschiedene Frequenzen C28 anpassen:\nbis 5 kHz 4.7nF\nbis 25 kHz 1nF\nbis 100 kHz 270pF\nbis 400kHz 120pF\nbis 700kHz 47pF\nbis 1MHz 22pF\n12pF\n"
 		(exclude_from_sim no)
 		(at 224.79 35.306 0)
 		(effects
@@ -4195,7 +4195,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "1n"
+		(property "Value" "2.2n"
 			(at 228.6 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4401,7 +4401,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "22p"
+		(property "Value" "47p"
 			(at 228.6 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6186,7 +6186,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "22p"
 			(at 228.6 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6588,7 +6588,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "47p"
+		(property "Value" "120p"
 			(at 228.6 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6887,7 +6887,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "220p"
+		(property "Value" "1n"
 			(at 228.6 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7475,7 +7475,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "12p"
 			(at 228.6 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9427,7 +9427,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "47p"
+		(property "Value" "270p"
 			(at 228.6 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
