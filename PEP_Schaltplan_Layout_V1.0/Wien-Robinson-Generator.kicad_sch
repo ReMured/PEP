@@ -1701,6 +1701,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Ein 100K Ohm Widerstand vor R12 gegen masse\n"
+		(exclude_from_sim no)
+		(at 118.618 137.922 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3ce2f38f-1597-43ee-9af1-43cf5ae7a844")
+	)
 	(junction
 		(at 229.87 52.07)
 		(diameter 0)
@@ -1834,6 +1844,12 @@
 		(uuid "79a0c5f6-ad96-4605-929f-49485ec25e77")
 	)
 	(junction
+		(at 123.19 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d627d0e-c868-4cf3-ade5-c6ee6ea6bed6")
+	)
+	(junction
 		(at 229.87 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1922,12 +1938,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c25ac93b-b8b0-4676-ba0e-464e5e1feaee")
-	)
-	(junction
-		(at 123.19 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cb1a6db7-51fb-41f5-8cce-de3302c6d24c")
 	)
 	(junction
 		(at 180.34 88.9)
